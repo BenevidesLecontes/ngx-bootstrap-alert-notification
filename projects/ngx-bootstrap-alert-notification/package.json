@@ -1,0 +1,20 @@
+{
+  "name": "@benevideschissanga/ngx-bootstrap-alert-notification",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.2 || ^8.x.x",
+    "@angular/core": "^8.0.2 || ^8.x.x",
+    "@angular/cdk": "^8.0.2 || ^8.x.x",
+    "bootstrap": "^4.3.1 || ^4.x.x"
+  },
+  "keywords": [
+    "angular 8",
+    "bootstrap-notification-alert",
+    "bootstrap-notification-alert-component",
+    "ngx-bootstrap-notification-alert",
+    "ngx-bootstrap-notification-alert-component",
+    "angular bootstrap notification",
+    "angular bootstrap notification alert",
+    "angular bootstrap toaster"
+  ]
+}

@@ -1,0 +1,53 @@
+<div class="card">
+  <div class="card-body">
+    <div class="places-buttons">
+      <div class="row">
+        <div class="ml-auto mr-auto text-center col-md-6">
+          <h4 class="card-title">Notifications Places</h4>
+          <p class="category mb-3">Click to view notifications</p></div>
+      </div>
+      <div class="row">
+        <div class="ml-auto mr-auto col-lg-8 mb-2">
+          <div class="row">
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('topLeft', 'danger', 'Danger')">Top
+                Left
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('topCenter', 'success', 'Success')">Top
+                Center
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('topRight', 'warning', 'Warning')">Top
+                Right
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="ml-auto mr-auto col-lg-8">
+          <div class="row">
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('bottomLeft', 'danger', 'Danger')">
+                Bottom Left
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('bottomCenter', 'success', 'Success')">
+                Bottom Center
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-info btn-block" (click)="open('bottomRight', 'warning', 'Warning')">
+                Bottom Right
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

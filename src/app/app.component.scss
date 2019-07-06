@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.card {
+  min-width: 68%;
+  min-height: 45%;
+}
