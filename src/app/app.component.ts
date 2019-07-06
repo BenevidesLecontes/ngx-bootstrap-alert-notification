@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NgxBootstrapAlertNotificationService} from 'ngx-bootstrap-alert-notification';
+import {NgxBootstrapAlertNotificationService} from '@benevideschissanga/ngx-bootstrap-alert-notification';
 
 @Component({
   selector: 'app-root',

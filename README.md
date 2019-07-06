@@ -1,5 +1,7 @@
 **Every feedback is welcome!**
 
+[Demo](https://benevideslecontes.github.io/ngx-bootstrap-alert-notification/)
+
 ## Installation
 
 Install via npm:
