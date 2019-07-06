@@ -41,6 +41,7 @@ this.notificationService.show(
 ```
 
 ### NotificationData
+```
 | Property Name     | property Type      |      
 | ----------------- | ------------------ | ------------------------------------------------------ |
 | `type`            | `NotificationType` | `'warning' | 'success' | 'primary' | 'info' | 'danger'`|
@@ -48,11 +49,12 @@ this.notificationService.show(
 | `icon`            | `string`           | `Icon class name`                                      |
 | `message`         | `string`           | `Message to display`                                   |
 | `template`        | `TemplateRef<any>` | `Custom template`                                      |
+```
 
 ### NotificationConfig
 
 You can pass custom configs 
-
+```
 | Property Name     | property Type      |      
 | ----------------- | ------------------ | ------------------------------------------------------------------------------------- |
 | `position`        | `string`           | `'topLeft' | 'topCenter' | 'topRight' | 'bottomLeft' | 'bottomCenter' | 'bottomRight'`|
@@ -60,3 +62,4 @@ You can pass custom configs
 | `timeOut`         | `number`           | `Delay time to auto close the alert`                                                  |
 | `dismissible`     | `boolean`          | `Should auto close or not`                                                            |
 | `unique`          | `boolean`          | `Dont show duplicated messages if true`                                               |
+```
