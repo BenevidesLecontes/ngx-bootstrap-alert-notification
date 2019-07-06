@@ -5,13 +5,13 @@
 Install via npm:
 
 ```bash
-$ npm install @benevides.chissanga/ngx-bootstrap-alert-notification --save
+$ npm install @benevideschissanga/ngx-bootstrap-alert-notification --save
 ```
 
 or yarn:
 
 ```bash
-$ yarn add @benevides.chissanga/ngx-bootstrap-alert-notification
+$ yarn add @benevideschissanga/ngx-bootstrap-alert-notification
 ```
 
 
