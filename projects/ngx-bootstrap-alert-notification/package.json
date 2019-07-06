@@ -1,12 +1,22 @@
 {
   "name": "@benevideschissanga/ngx-bootstrap-alert-notification",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^8.0.2 || ^8.x.x",
     "@angular/core": "^8.0.2 || ^8.x.x",
     "@angular/cdk": "^8.0.2 || ^8.x.x",
     "bootstrap": "^4.3.1 || ^4.x.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenevidesLecontes/ngx-bootstrap-alert-notification"
+  },
+  "author": "Benevides Chissanga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenevidesLecontes/ngx-bootstrap-alert-notification/issues"
+  },
+  "homepage": "https://benevideslecontes.github.io/ngx-bootstrap-alert-notification/",
   "keywords": [
     "angular 8",
     "bootstrap-notification-alert",

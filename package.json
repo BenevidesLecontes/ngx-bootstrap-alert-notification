@@ -9,6 +9,16 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenevidesLecontes/ngx-bootstrap-alert-notification"
+  },
+  "author": "Benevides Chissanga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenevidesLecontes/ngx-bootstrap-alert-notification/issues"
+  },
+  "homepage": "https://benevideslecontes.github.io/ngx-bootstrap-alert-notification/",
   "keywords": [
     "angular 8",
     "bootstrap-notification-alert",
