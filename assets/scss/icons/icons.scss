@@ -1,0 +1,538 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-alert-circle-exc: unicode(ea01);
+$icon-align-center: unicode(ea02);
+$icon-align-left-2: unicode(ea04);
+$icon-app: unicode(ea03);
+$icon-atom: unicode(ea06);
+$icon-attach-87: unicode(ea05);
+$icon-badge: unicode(ea07);
+$icon-bag-16: unicode(ea08);
+$icon-bank: unicode(ea09);
+$icon-basket-simple: unicode(ea0a);
+$icon-bell-55: unicode(ea0b);
+$icon-bold: unicode(ea0c);
+$icon-book-bookmark: unicode(ea0d);
+$icon-bulb-63: unicode(ea0e);
+$icon-bullet-list-67: unicode(ea0f);
+$icon-bus-front-12: unicode(ea10);
+$icon-button-pause: unicode(ea11);
+$icon-button-power: unicode(ea12);
+$icon-calendar-60: unicode(ea13);
+$icon-camera-18: unicode(ea14);
+$icon-caps-small: unicode(ea15);
+$icon-cart: unicode(ea16);
+$icon-chart-bar-32: unicode(ea17);
+$icon-chart-pie-36: unicode(ea18);
+$icon-chat-33: unicode(ea19);
+$icon-check-2: unicode(ea1a);
+$icon-circle-dots: unicode(ea1b);
+$icon-cloud-download-93: unicode(ea1c);
+$icon-cloud-upload-94: unicode(ea1d);
+$icon-coins: unicode(ea1e);
+$icon-compass-05: unicode(ea1f);
+$icon-components: unicode(ea20);
+$icon-controller: unicode(ea21);
+$icon-credit-card: unicode(ea22);
+$icon-delivery-fast: unicode(ea23);
+$icon-double-left: unicode(ea24);
+$icon-double-right: unicode(ea25);
+$icon-email-85: unicode(ea26);
+$icon-gift-2: unicode(ea27);
+$icon-globe-2: unicode(ea28);
+$icon-headphones: unicode(ea29);
+$icon-heart-2: unicode(ea2a);
+$icon-html5: unicode(ea2b);
+$icon-image-02: unicode(ea2c);
+$icon-istanbul: unicode(ea2d);
+$icon-key-25: unicode(ea2e);
+$icon-laptop: unicode(ea2f);
+$icon-light-3: unicode(ea30);
+$icon-link-72: unicode(ea31);
+$icon-list-2: unicode(ea32);
+$icon-list-plus: unicode(ea33);
+$icon-lock-circle: unicode(ea34);
+$icon-map-big: unicode(ea35);
+$icon-minimal-down: unicode(ea36);
+$icon-minimal-left: unicode(ea37);
+$icon-minimal-right: unicode(ea38);
+$icon-minimal-up: unicode(ea39);
+$icon-mobile: unicode(ea3a);
+$icon-molecule-40: unicode(ea3b);
+$icon-money-coins: unicode(ea3c);
+$icon-notes: unicode(ea3d);
+$icon-palette: unicode(ea3e);
+$icon-paper: unicode(ea3f);
+$icon-pencil: unicode(ea40);
+$icon-pin: unicode(ea41);
+$icon-planet: unicode(ea42);
+$icon-puzzle-10: unicode(ea43);
+$icon-refresh-01: unicode(ea44);
+$icon-refresh-02: unicode(ea45);
+$icon-satisfied: unicode(ea46);
+$icon-scissors: unicode(ea47);
+$icon-send: unicode(ea48);
+$icon-settings-gear-63: unicode(ea49);
+$icon-settings: unicode(ea4a);
+$icon-shape-star: unicode(ea4b);
+$icon-simple-add: unicode(ea4c);
+$icon-simple-delete: unicode(ea4d);
+$icon-simple-remove: unicode(ea4e);
+$icon-single-02: unicode(ea4f);
+$icon-single-copy-04: unicode(ea50);
+$icon-sound-wave: unicode(ea51);
+$icon-spaceship: unicode(ea52);
+$icon-square-pin: unicode(ea53);
+$icon-support-17: unicode(ea54);
+$icon-tablet-2: unicode(ea55);
+$icon-tag: unicode(ea56);
+$icon-tap-02: unicode(ea57);
+$icon-tie-bow: unicode(ea58);
+$icon-time-alarm: unicode(ea59);
+$icon-trash-simple: unicode(ea5b);
+$icon-triangle-right-17: unicode(ea5a);
+$icon-trophy: unicode(ea5c);
+$icon-tv-2: unicode(ea5d);
+$icon-upload: unicode(ea5e);
+$icon-user-run: unicode(ea5f);
+$icon-vector: unicode(ea60);
+$icon-video-66: unicode(ea61);
+$icon-volume-98: unicode(ea62);
+$icon-waiting-schedule-2: unicode(ea63);
+$icon-waiting-schedule: unicode(ea64);
+$icon-wallet-43: unicode(ea65);
+$icon-watch-time: unicode(ea66);
+$icon-website: unicode(ea67);
+$icon-wifi: unicode(ea68);
+$icon-world: unicode(ea69);
+$icon-zoom-split: unicode(ea6a);
+
+.icon-alert-circle-exc::before {
+  content: $icon-alert-circle-exc;
+}
+
+.icon-align-center::before {
+  content: $icon-align-center;
+}
+
+.icon-align-left-2::before {
+  content: $icon-align-left-2;
+}
+
+.icon-app::before {
+  content: $icon-app;
+}
+
+.icon-atom::before {
+  content: $icon-atom;
+}
+
+.icon-attach-87::before {
+  content: $icon-attach-87;
+}
+
+.icon-badge::before {
+  content: $icon-badge;
+}
+
+.icon-bag-16::before {
+  content: $icon-bag-16;
+}
+
+.icon-bank::before {
+  content: $icon-bank;
+}
+
+.icon-basket-simple::before {
+  content: $icon-basket-simple;
+}
+
+.icon-bell-55::before {
+  content: $icon-bell-55;
+}
+
+.icon-bold::before {
+  content: $icon-bold;
+}
+
+.icon-book-bookmark::before {
+  content: $icon-book-bookmark;
+}
+
+.icon-bulb-63::before {
+  content: $icon-bulb-63;
+}
+
+.icon-bullet-list-67::before {
+  content: $icon-bullet-list-67;
+}
+
+.icon-bus-front-12::before {
+  content: $icon-bus-front-12;
+}
+
+.icon-button-pause::before {
+  content: $icon-button-pause;
+}
+
+.icon-button-power::before {
+  content: $icon-button-power;
+}
+
+.icon-calendar-60::before {
+  content: $icon-calendar-60;
+}
+
+.icon-camera-18::before {
+  content: $icon-camera-18;
+}
+
+.icon-caps-small::before {
+  content: $icon-caps-small;
+}
+
+.icon-cart::before {
+  content: $icon-cart;
+}
+
+.icon-chart-bar-32::before {
+  content: $icon-chart-bar-32;
+}
+
+.icon-chart-pie-36::before {
+  content: $icon-chart-pie-36;
+}
+
+.icon-chat-33::before {
+  content: $icon-chat-33;
+}
+
+.icon-check-2::before {
+  content: $icon-check-2;
+}
+
+.icon-circle-dots::before {
+  content: $icon-circle-dots;
+}
+
+.icon-cloud-download-93::before {
+  content: $icon-cloud-download-93;
+}
+
+.icon-cloud-upload-94::before {
+  content: $icon-cloud-upload-94;
+}
+
+.icon-coins::before {
+  content: $icon-coins;
+}
+
+.icon-compass-05::before {
+  content: $icon-compass-05;
+}
+
+.icon-components::before {
+  content: $icon-components;
+}
+
+.icon-controller::before {
+  content: $icon-controller;
+}
+
+.icon-credit-card::before {
+  content: $icon-credit-card;
+}
+
+.icon-delivery-fast::before {
+  content: $icon-delivery-fast;
+}
+
+.icon-double-left::before {
+  content: $icon-double-left;
+}
+
+.icon-double-right::before {
+  content: $icon-double-right;
+}
+
+.icon-email-85::before {
+  content: $icon-email-85;
+}
+
+.icon-gift-2::before {
+  content: $icon-gift-2;
+}
+
+.icon-globe-2::before {
+  content: $icon-globe-2;
+}
+
+.icon-headphones::before {
+  content: $icon-headphones;
+}
+
+.icon-heart-2::before {
+  content: $icon-heart-2;
+}
+
+.icon-html5::before {
+  content: $icon-html5;
+}
+
+.icon-image-02::before {
+  content: $icon-image-02;
+}
+
+.icon-istanbul::before {
+  content: $icon-istanbul;
+}
+
+.icon-key-25::before {
+  content: $icon-key-25;
+}
+
+.icon-laptop::before {
+  content: $icon-laptop;
+}
+
+.icon-light-3::before {
+  content: $icon-light-3;
+}
+
+.icon-link-72::before {
+  content: $icon-link-72;
+}
+
+.icon-list-2::before {
+  content: $icon-list-2;
+}
+
+.icon-list-plus::before {
+  content: $icon-list-plus;
+}
+
+.icon-lock-circle::before {
+  content: $icon-lock-circle;
+}
+
+.icon-map-big::before {
+  content: $icon-map-big;
+}
+
+.icon-minimal-down::before {
+  content: $icon-minimal-down;
+}
+
+.icon-minimal-left::before {
+  content: $icon-minimal-left;
+}
+
+.icon-minimal-right::before {
+  content: $icon-minimal-right;
+}
+
+.icon-minimal-up::before {
+  content: $icon-minimal-up;
+}
+
+.icon-mobile::before {
+  content: $icon-mobile;
+}
+
+.icon-molecule-40::before {
+  content: $icon-molecule-40;
+}
+
+.icon-money-coins::before {
+  content: $icon-money-coins;
+}
+
+.icon-notes::before {
+  content: $icon-notes;
+}
+
+.icon-palette::before {
+  content: $icon-palette;
+}
+
+.icon-paper::before {
+  content: $icon-paper;
+}
+
+.icon-pencil::before {
+  content: $icon-pencil;
+}
+
+.icon-pin::before {
+  content: $icon-pin;
+}
+
+.icon-planet::before {
+  content: $icon-planet;
+}
+
+.icon-puzzle-10::before {
+  content: $icon-puzzle-10;
+}
+
+.icon-refresh-01::before {
+  content: $icon-refresh-01;
+}
+
+.icon-refresh-02::before {
+  content: $icon-refresh-02;
+}
+
+.icon-satisfied::before {
+  content: $icon-satisfied;
+}
+
+.icon-scissors::before {
+  content: $icon-scissors;
+}
+
+.icon-send::before {
+  content: $icon-send;
+}
+
+.icon-settings-gear-63::before {
+  content: $icon-settings-gear-63;
+}
+
+.icon-settings::before {
+  content: $icon-settings;
+}
+
+.icon-shape-star::before {
+  content: $icon-shape-star;
+}
+
+.icon-simple-add::before {
+  content: $icon-simple-add;
+}
+
+.icon-simple-delete::before {
+  content: $icon-simple-delete;
+}
+
+.icon-simple-remove::before {
+  content: $icon-simple-remove;
+}
+
+.icon-single-02::before {
+  content: $icon-single-02;
+}
+
+.icon-single-copy-04::before {
+  content: $icon-single-copy-04;
+}
+
+.icon-sound-wave::before {
+  content: $icon-sound-wave;
+}
+
+.icon-spaceship::before {
+  content: $icon-spaceship;
+}
+
+.icon-square-pin::before {
+  content: $icon-square-pin;
+}
+
+.icon-support-17::before {
+  content: $icon-support-17;
+}
+
+.icon-tablet-2::before {
+  content: $icon-tablet-2;
+}
+
+.icon-tag::before {
+  content: $icon-tag;
+}
+
+.icon-tap-02::before {
+  content: $icon-tap-02;
+}
+
+.icon-tie-bow::before {
+  content: $icon-tie-bow;
+}
+
+.icon-time-alarm::before {
+  content: $icon-time-alarm;
+}
+
+.icon-trash-simple::before {
+  content: $icon-trash-simple;
+}
+
+.icon-triangle-right-17::before {
+  content: $icon-triangle-right-17;
+}
+
+.icon-trophy::before {
+  content: $icon-trophy;
+}
+
+.icon-tv-2::before {
+  content: $icon-tv-2;
+}
+
+.icon-upload::before {
+  content: $icon-upload;
+}
+
+.icon-user-run::before {
+  content: $icon-user-run;
+}
+
+.icon-vector::before {
+  content: $icon-vector;
+}
+
+.icon-video-66::before {
+  content: $icon-video-66;
+}
+
+.icon-volume-98::before {
+  content: $icon-volume-98;
+}
+
+.icon-waiting-schedule-2::before {
+  content: $icon-waiting-schedule-2;
+}
+
+.icon-waiting-schedule::before {
+  content: $icon-waiting-schedule;
+}
+
+.icon-wallet-43::before {
+  content: $icon-wallet-43;
+}
+
+.icon-watch-time::before {
+  content: $icon-watch-time;
+}
+
+.icon-website::before {
+  content: $icon-website;
+}
+
+.icon-wifi::before {
+  content: $icon-wifi;
+}
+
+.icon-world::before {
+  content: $icon-world;
+}
+
+.icon-zoom-split::before {
+  content: $icon-zoom-split;
+}
+
