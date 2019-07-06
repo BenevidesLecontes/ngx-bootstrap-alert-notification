@@ -1,6 +1,6 @@
 {
   "name": "@benevideschissanga/ngx-bootstrap-alert-notification",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^8.0.2 || ^8.x.x",
     "@angular/core": "^8.0.2 || ^8.x.x",

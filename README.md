@@ -19,7 +19,7 @@ $ yarn add @benevideschissanga/ngx-bootstrap-alert-notification
 
 ## Usage
 
-To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
+To use ngx-bootstrap-alert-notification
 
 ```
 Import `NgxBootstrapAlertNotificationModule.forRoot()` in your main module 
