@@ -6,28 +6,25 @@
 
 Install via npm:
 
-```bash
+```shell
 $ npm install @benevideschissanga/ngx-bootstrap-alert-notification --save
 ```
 
 or yarn:
 
-```bash
+```shell
 $ yarn add @benevideschissanga/ngx-bootstrap-alert-notification
 ```
-
 
 ## Usage
 
 To use ngx-bootstrap-alert-notification
 
-```
-Import `NgxBootstrapAlertNotificationModule.forRoot()` in your main module 
-```
+In your main module, import `NgxBootstrapAlertNotificationModule.forRoot()` 
 
-```
 In your component inject the `NgxBootstrapAlertNotificationService` and use like:
 
+```typescript
 this.notificationService.show(
       {
         type: 'danger',
@@ -43,25 +40,24 @@ this.notificationService.show(
 ```
 
 ### NotificationData
-```
-| Property Name     | property Type      |      
+
+| Property Name     | Property Type      |  Property Value                                        |
 | ----------------- | ------------------ | ------------------------------------------------------ |
-| `type`            | `NotificationType` | `'warning' | 'success' | 'primary' | 'info' | 'danger'`|
-| `title`           | `string`           | `Title for the alert`                                  |
-| `icon`            | `string`           | `Icon class name`                                      |
-| `message`         | `string`           | `Message to display`                                   |
-| `template`        | `TemplateRef<any>` | `Custom template`                                      |
-```
+| type              | NotificationType   | `warning`, `success`, `primary`, `info`, `danger`      |
+| title             | string             | Title for the alert                                    |
+| icon              | string             | Icon class name                                        |
+| message           | string             | Message to display                                     |
+| template          | TemplateRef<any>   | Custom template                                        |
+
 
 ### NotificationConfig
 
 You can pass custom configs 
-```
-| Property Name     | property Type      |      
+
+| Property Name     | Property Type      | Property Value                                                                        |
 | ----------------- | ------------------ | ------------------------------------------------------------------------------------- |
-| `position`        | `string`           | `'topLeft' | 'topCenter' | 'topRight' | 'bottomLeft' | 'bottomCenter' | 'bottomRight'`|
-| `animation`       | `boolean`          | `Should be animated or not`                                                           |
-| `timeOut`         | `number`           | `Delay time to auto close the alert`                                                  |
-| `dismissible`     | `boolean`          | `Should auto close or not`                                                            |
-| `unique`          | `boolean`          | `Dont show duplicated messages if true`                                               |
-```
+| position          | string             | `topLeft`, `topCenter`, `topRight`, `bottomLeft`, `bottomCenter`, `bottomRight`       |
+| animation         | boolean            | Should be animated or not                                                             |
+| timeOut           | number             | Delay time to auto close the alert                                                    |
+| dismissible       | boolean            | Should auto close or not                                                              |
+| unique            | boolean            | Dont show duplicated messages if true                                                 |
