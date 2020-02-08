@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-alert",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -40,7 +40,7 @@
     "@angular/platform-browser": "~9.0.0",
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
-    "@benevideschissanga/ngx-bootstrap-alert-notification": "^0.0.3",
+    "@benevideschissanga/ngx-bootstrap-alert-notification": "^0.0.4",
     "bootstrap": "^4.4.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
