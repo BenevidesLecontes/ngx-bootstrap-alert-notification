@@ -1,5 +1,5 @@
 // Global settings
-@import "~node_modules/bootstrap/scss/functions";
+@import '~bootstrap/scss/functions';
 
 $enable-caret: true !default;
 $enable-rounded: true !default;
@@ -29,15 +29,15 @@ $dark-background: #555555 !default;
 $grays: () !default;
 $grays: map-merge(
   (
-    "100": $gray-100,
-    "200": $gray-200,
-    "300": $gray-300,
-    "400": $gray-400,
-    "500": $gray-500,
-    "600": $gray-600,
-    "700": $gray-700,
-    "800": $gray-800,
-    "900": $gray-900
+    '100': $gray-100,
+    '200': $gray-200,
+    '300': $gray-300,
+    '400': $gray-400,
+    '500': $gray-500,
+    '600': $gray-600,
+    '700': $gray-700,
+    '800': $gray-800,
+    '900': $gray-900,
   ),
   $grays
 );
@@ -58,21 +58,21 @@ $cyan: #2bffc6 !default;
 $colors: () !default;
 $colors: map-merge(
   (
-    "blue": $blue,
-    "indigo": $indigo,
-    "purple": $purple,
-    "pink": $pink,
-    "red": $red,
-    "orange": $orange,
-    "yellow": $yellow,
-    "green": $green,
-    "teal": $teal,
-    "cyan": $cyan,
-    "white": $white,
-    "gray": $gray-600,
-    "light": $gray-400,
-    "lighter": $gray-200,
-    "gray-dark": $gray-800
+    'blue': $blue,
+    'indigo': $indigo,
+    'purple': $purple,
+    'pink': $pink,
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'green': $green,
+    'teal': $teal,
+    'cyan': $cyan,
+    'white': $white,
+    'gray': $gray-600,
+    'light': $gray-400,
+    'lighter': $gray-200,
+    'gray-dark': $gray-800,
   ),
   $colors
 );
@@ -89,6 +89,6 @@ $black: #222a42 !default;
 
 // Fonts
 
-$font-family-base: "Poppins", sans-serif !default;
-$font-family-alt: "Poppins", sans-serif !default;
+$font-family-base: 'Poppins', sans-serif !default;
+$font-family-alt: 'Poppins', sans-serif !default;
 $font-paragraph: 1rem !default;

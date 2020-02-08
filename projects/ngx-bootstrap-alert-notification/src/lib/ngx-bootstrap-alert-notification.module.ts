@@ -15,7 +15,9 @@ import { OverlayModule } from '@angular/cdk/overlay'
   exports: [NgxBootstrapAlertNotificationComponent],
 })
 export class NgxBootstrapAlertNotificationModule {
-  public static forRoot(config?: NgxNotificationConfig): ModuleWithProviders {
+  public static forRoot(
+    config?: NgxNotificationConfig
+  ): ModuleWithProviders<NgxBootstrapAlertNotificationModule> {
     return {
       ngModule: NgxBootstrapAlertNotificationModule,
       providers: [

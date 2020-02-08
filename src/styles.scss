@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import "assets/scss/icons/nucleo";
+@import 'assets/scss/icons/nucleo';
 
-@import "~node_modules/bootstrap/scss/functions";
-@import "assets/scss/variables";
-@import "~node_modules/bootstrap/scss/variables";
-@import "~node_modules/bootstrap/scss/bootstrap";
-@import "assets/scss/alerts";
+@import '~bootstrap/scss/functions';
+@import 'assets/scss/variables';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'assets/scss/alerts';
 
 body {
   -moz-osx-font-smoothing: grayscale;
