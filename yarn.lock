@@ -995,12 +995,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@benevideschissanga/ngx-bootstrap-alert-notification@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@benevideschissanga/ngx-bootstrap-alert-notification/-/ngx-bootstrap-alert-notification-0.0.3.tgz#6bebc110caeae97554d1039dc9afe47f045ff0c9"
-  integrity sha512-M57jCu8NMP/oLA3ZozIafoVgK89fQI8ETaLpAsgF6NAzJZQ+qu2GbeHR/fK4yA0Glafx08Eumj+WsEet0S3LWg==
-  dependencies:
-    tslib "^1.9.0"
+"@benevideschissanga/ngx-bootstrap-alert-notification@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@benevideschissanga/ngx-bootstrap-alert-notification/-/ngx-bootstrap-alert-notification-0.0.4.tgz#676756409a5361a8ebddd9861d8f838fb1b56246"
+  integrity sha512-boWKvMXLmagNf072ALzShZIDA56AzgD34YtT7D1oQqe0FXoOQXUzybamD8QOSUfVuNfHZwCF13Qhpi/QqreW0A==
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
