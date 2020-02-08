@@ -16,13 +16,12 @@ or yarn:
 $ yarn add @benevideschissanga/ngx-bootstrap-alert-notification
 ```
 
-
 ## Usage
 
 To use ngx-bootstrap-alert-notification
 
 ```
-Import `NgxBootstrapAlertNotificationModule.forRoot()` in your main module 
+Import `NgxBootstrapAlertNotificationModule.forRoot()` in your main module
 ```
 
 ```
@@ -43,8 +42,9 @@ this.notificationService.show(
 ```
 
 ### NotificationData
+
 ```
-| Property Name     | property Type      |      
+| Property Name     | property Type      |
 | ----------------- | ------------------ | ------------------------------------------------------ |
 | `type`            | `NotificationType` | `'warning' | 'success' | 'primary' | 'info' | 'danger'`|
 | `title`           | `string`           | `Title for the alert`                                  |
@@ -55,9 +55,10 @@ this.notificationService.show(
 
 ### NotificationConfig
 
-You can pass custom configs 
+You can pass custom configs
+
 ```
-| Property Name     | property Type      |      
+| Property Name     | property Type      |
 | ----------------- | ------------------ | ------------------------------------------------------------------------------------- |
 | `position`        | `string`           | `'topLeft' | 'topCenter' | 'topRight' | 'bottomLeft' | 'bottomCenter' | 'bottomRight'`|
 | `animation`       | `boolean`          | `Should be animated or not`                                                           |
