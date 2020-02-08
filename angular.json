@@ -108,6 +108,10 @@
               "devServerTarget": "ngx-bootstrap-alert:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     },
