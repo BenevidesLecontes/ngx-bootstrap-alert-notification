@@ -2,7 +2,7 @@
 	icons
 -------------------------*/
 @function unicode($str) {
-  @return unquote("\"\\#{$str}\"");
+  @return unquote('"\\#{$str}"');
 }
 
 $icon-alert-circle-exc: unicode(ea01);
@@ -535,4 +535,3 @@ $icon-zoom-split: unicode(ea6a);
 .icon-zoom-split::before {
   content: $icon-zoom-split;
 }
-
