@@ -22,7 +22,7 @@ const Styles: NotificationAlertContainerStyles = {
   providedIn: 'root',
 })
 export class NgxBootstrapAlertNotificationService {
-  private lastNotification: NgxNotificationRef
+  private lastNotification: NgxNotificationRef | undefined
 
   constructor(
     private overlay: Overlay,
@@ -32,7 +32,7 @@ export class NgxBootstrapAlertNotificationService {
   ) {}
 
   // tslint:disable-next-line:variable-name
-  private _lastMessage: string | string[]
+  private _lastMessage: string | string[] | undefined
 
   set lastMessage(value: string | string[]) {
     this._lastMessage = value
@@ -45,7 +45,7 @@ export class NgxBootstrapAlertNotificationService {
       (config &&
         config.unique &&
         ((Array.isArray(this._lastMessage) &&
-          (this._lastMessage || []).includes(data.message)) ||
+          (this._lastMessage || []).includes(data.message as string)) ||
           this._lastMessage !== data.message))
     ) {
       this._lastMessage = data.message
@@ -108,7 +108,8 @@ export class NgxBootstrapAlertNotificationService {
 
   private createContainerStyles(config?: NgxNotificationConfig) {
     const styles = { ...Styles }
-    let notificationContainer: HTMLDivElement
+    let notificationContainer: HTMLDivElement | null = null
+
     if (this.lastNotification) {
       const element = this.lastNotification.isVisible()
       notificationContainer = element
@@ -116,13 +117,15 @@ export class NgxBootstrapAlertNotificationService {
         : null
     }
 
-    const conf = { ...this.notificationConfig, ...(config || {}) }
+    const conf = { ...this.notificationConfig, ...(config ?? {}) }
 
     if (conf.position && conf.position.includes('top')) {
       styles.top =
         notificationContainer && notificationContainer.style.top
-          ? `${parseFloat(notificationContainer.style.top) +
-              notificationContainer.clientHeight}px`
+          ? `${
+              parseFloat(notificationContainer.style.top) +
+              notificationContainer.clientHeight
+            }px`
           : '20px'
       switch (conf.position) {
         case 'topLeft':
@@ -141,8 +144,10 @@ export class NgxBootstrapAlertNotificationService {
     } else {
       styles.bottom =
         notificationContainer && notificationContainer.style.bottom
-          ? `${parseFloat(notificationContainer.style.bottom) +
-              notificationContainer.clientHeight}px`
+          ? `${
+              parseFloat(notificationContainer.style.bottom) +
+              notificationContainer.clientHeight
+            }px`
           : '20px'
       switch (conf.position) {
         case 'bottomLeft':
