@@ -2,7 +2,7 @@ import { ModuleWithProviders, NgModule } from '@angular/core'
 import { NgxBootstrapAlertNotificationComponent } from './ngx-bootstrap-alert-notification.component'
 import { CommonModule } from '@angular/common'
 import {
-  defaultNotificationCofigValues,
+  defaultNotificationConfigValues,
   DefaultNotificationConfig,
   NgxNotificationConfig,
 } from './ngx-notification-config'
@@ -23,7 +23,7 @@ export class NgxBootstrapAlertNotificationModule {
       providers: [
         {
           provide: DefaultNotificationConfig,
-          useValue: config ? config : defaultNotificationCofigValues,
+          useValue: config ? config : defaultNotificationConfigValues,
         },
       ],
     }

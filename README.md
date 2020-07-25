@@ -66,3 +66,5 @@ You can pass custom configs
 `0.0.3 - Angular 8`
 
 `0.0.4 - Angular 9`
+
+`0.0.5 - Angular 10`

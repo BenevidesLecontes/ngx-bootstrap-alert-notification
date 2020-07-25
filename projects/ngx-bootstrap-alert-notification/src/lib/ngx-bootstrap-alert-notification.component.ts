@@ -109,9 +109,9 @@ import {
   ],
 })
 export class NgxBootstrapAlertNotificationComponent implements OnInit {
-  show: boolean
+  show!: boolean
   animatedClass = 'fadeInDown'
-  notification: {
+  notification!: {
     obs: { stepTimer: Observable<any>; completeTimer: Observable<any> }
     paused: BehaviorSubject<boolean>
   }
@@ -137,7 +137,7 @@ export class NgxBootstrapAlertNotificationComponent implements OnInit {
       this.show = false
       timer(1000)
         .pipe(take(1))
-        .subscribe(t => this.ref.close())
+        .subscribe((t) => this.ref.close())
     } else {
       this.show = false
       this.ref.close()
@@ -162,11 +162,14 @@ export class NgxBootstrapAlertNotificationComponent implements OnInit {
     const subject = new BehaviorSubject<boolean>(false)
     this.notification = {
       paused: subject,
-      obs: this.getPausableTimer(this.notificationConfig.timeOut, subject),
+      obs: this.getPausableTimer(
+        this.notificationConfig.timeOut as number,
+        subject
+      ),
     }
     this.notification.obs.completeTimer
       .pipe(take(1))
-      .subscribe(t => this.close())
+      .subscribe((t) => this.close())
   }
 
   private getPausableTimer(

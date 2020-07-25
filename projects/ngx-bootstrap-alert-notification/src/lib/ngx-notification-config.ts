@@ -1,7 +1,7 @@
 import { Injectable, InjectionToken, TemplateRef } from '@angular/core'
 
 export class NotificationData {
-  type: NotificationType
+  type: NotificationType = 'success'
   title?: string
   icon?: string
   message?: string
@@ -10,6 +10,19 @@ export class NotificationData {
 }
 
 export class NotificationAlertContainerStyles {
+  constructor(
+    display: string,
+    margin: string,
+    position: string,
+    transition: string,
+    zIndex: string
+  ) {
+    this.display = display
+    this.margin = margin
+    this.position = position
+    this.transition = transition
+    this.zIndex = zIndex
+  }
   display: string
   margin: string
   position: string
@@ -52,7 +65,7 @@ export class DefaultNotificationConfig implements NgxNotificationConfig {
   unique = false
 }
 
-export const defaultNotificationCofigValues = {
+export const defaultNotificationConfigValues = {
   position: 'topRight',
   animation: true,
   timeOut: 5,

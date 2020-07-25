@@ -1,10 +1,10 @@
 {
   "name": "@benevideschissanga/ngx-bootstrap-alert-notification",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "peerDependencies": {
-    "@angular/common": "^8.0.2 || ^9.x.x",
-    "@angular/core": "^8.0.2 || ^9.x.x",
-    "@angular/cdk": "^8.0.2 || ^9.x.x",
+    "@angular/common": "^8.0.2 || ^10.x.x",
+    "@angular/core": "^8.0.2 || ^10.x.x",
+    "@angular/cdk": "^8.0.2 || ^10.x.x",
     "bootstrap": "^4.3.1 || ^4.x.x"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "keywords": [
     "angular 8",
     "angular 9",
+    "angular 10",
     "bootstrap 4",
     "bootstrap-notification-alert",
     "bootstrap-notification-alert-component",
@@ -28,5 +29,8 @@
     "angular bootstrap notification",
     "angular bootstrap notification alert",
     "angular bootstrap toaster"
-  ]
+  ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
 }
